@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}  
+body {
+    background-image: url('./Images/Grain\ BG.png');
+    background-color: #FFFCF5;
+    background-repeat: repeat-y;
+
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+header {
+    display: flex;
+    margin: 0px 80px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-self: stretch;
+
+}
+h1 {
+     margin-top: 80px;
+     margin-left: 80px;
+     font-family: 'Bebas Neue', sans-serif;
+     font-size: 160px;
+     color: #EE0000;
+     line-height: 80%;
+     font-weight: 400;
+     width: 100%;
+}
+
+.spotify {
+    height: 40px;
+    width: 40px;
+    position: sticky;
+    margin-right: 20px;
+    margin-top: 20px;
+    position: sticky;
+}
+
+.intro {
+    width: 870px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    align-self: stretch;
+    margin-left: 436px;
+    padding-bottom: 80px;
+}
+
+.intro h2 {
+    margin: 0;
+    color: #E00;
+    font-family: Spline Sans Mono;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.intro p {
+    margin: 0;
+    color: #2F2F2F;
+    font-family: Spline Sans Mono;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+main {
+    margin: 0;
+    display: flex;
+}
+
+.blink-toypaj {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 80px;
+    gap: 80px
+    
+}
+
+.blink-images {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    height: auto;
+    margin-left: 260px;
+
+}
+.lyrics {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 92px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 80px;
+    color: #171717;
+    margin-bottom: 20px;
+
+}
+
+.song-entry p {
+    margin: 0;
+    color: #171717;
+    font-family: Spline Sans Mono;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+.links p {
+    color: #E00;
+    text-decoration: underline;
+
+}
+
+.background-image {
+    z-index: -1;
+    position: absolute;
+    margin: 0;
+    opacity: 0.8;
+}
+
+.firstdate {
+    padding-top: 200px;
+}
